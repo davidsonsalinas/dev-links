@@ -7,7 +7,7 @@ function toggleMode() {
   var currentImage = imgElement.getAttribute("src")
 
   if (currentImage.includes("assets/Avatar.png")) {
-    imgElement.setAttribute("src", "assets/Avatar-light.png")
+    imgElement.setAttribute("src", "assets/avatar-light.png")
   } else {
     imgElement.setAttribute("src", "assets/Avatar.png")
   }
